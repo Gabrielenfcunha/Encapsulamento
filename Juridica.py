@@ -1,7 +1,7 @@
 from Pessoa import Pessoa
 
 
-class Juridica:
+class Juridica(Pessoa):
   def __init__(self,codigo,nome,endereco,telefone,cnpj,inscricaoEstadual,quantiadeFuncionario):
     super().__init__(codigo,nome,endereco,telefone)
     self.__cnpj = cnpj
