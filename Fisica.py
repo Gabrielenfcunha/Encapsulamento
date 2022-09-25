@@ -25,7 +25,7 @@ class Fisica(Pessoa):
   def calcularImc(self):
     imc = self.peso / self.altura**2
     situacao = self.situacao_por_imc(imc)
-    return f"O IMC de {self.peso} kg é de {round(imc)} {situacao}"
+    return f"O IMC de {self.peso} kg é de {round(imc)}\n {situacao}"
   
   def situacao_por_imc(self,imc):
     if imc < 17:

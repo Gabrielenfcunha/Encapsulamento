@@ -12,5 +12,5 @@ Ju.imprimeCPJ()
 
 print("-="*10)
 
-Fi = Fisica(3,"rita","alcides Maia",99486760,5434678,55,77.99,1.65)
+Fi = Fisica(3,"rita","alcides Maia",99486760,5434678,77.99,55,1.65)
 Fi.imprimicpf()
